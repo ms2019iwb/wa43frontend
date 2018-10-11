@@ -14,7 +14,7 @@ import './App.css';
 const App = () => (
   <Router>
     <React.Fragment>
-      {/* <Route exact path="/" component={Sns} /> */}
+      <Route exact path="/" component={Sns} />
       <Route exact path="/login" component={Login} />
       <Route exact path="/signup" component={Signup} />
       <Route exact path="/mypage" component={Mypage} />
